@@ -1,0 +1,23 @@
+{
+    "name": "cleme/adming1b",
+    "require": {
+        "symfony/var-dumper": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "Clément Haller",
+            "email": "clement.haller@hetic.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "src/Controller",
+            "Model\\": "src/Model",
+            "View\\": "src/View",
+            "Helper\\": "src/Helper"
+        },
+        "files": [
+            "init.php"
+        ]
+    }
+}
